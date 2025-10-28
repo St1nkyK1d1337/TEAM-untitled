@@ -1,0 +1,19 @@
+#ifndef _MOTOR_H_
+#define _MOTOR_H_
+
+void Motor_Init(void);
+void Car_Stop(void);
+void Car_Forward1(uint16_t Speed);
+void Car_Forward2(uint16_t Speed);
+void Car_Backward1(uint16_t Speed);
+void Car_Backward2(uint16_t Speed);
+void Car_TurnLeft(uint16_t Speed);
+void Car_TurnRight(uint16_t Speed);
+void Car_TransLeft(uint16_t Speed);
+void Car_TransRight(uint16_t Speed);
+void Motor1_SetSpeed(uint8_t Dir, uint16_t Speed);
+void Motor2_SetSpeed(uint8_t Dir, uint16_t Speed);
+void Motor3_SetSpeed(uint8_t Dir, uint16_t Speed);
+void Motor4_SetSpeed(uint8_t Dir, uint16_t Speed);
+#endif
+
